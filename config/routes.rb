@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resources :requests
+  root 'requests#index'
+  resources :requests, only: [:show, :create]
 end
