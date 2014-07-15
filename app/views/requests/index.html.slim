@@ -1,0 +1,11 @@
+h1 Listing requests
+
+table
+  thead
+    tr
+      th
+
+  tbody
+    - @requests.each do |request|
+      tr
+        td = link_to request.created_at, request

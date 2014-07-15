@@ -1,0 +1,7 @@
+table
+  - @request.data.each do |key, value|
+    tr
+      th= key
+      td= value
+
+= link_to 'Back', root_path
