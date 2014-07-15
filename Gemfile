@@ -11,9 +11,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
-gem 'spring', group: :development
 
 gem 'slim-rails'
+
+group :development do
+  gem 'spring'
+  gem 'html2slim'
+end
 
 group :production do
   gem 'rails_12factor'
