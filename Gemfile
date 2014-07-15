@@ -13,6 +13,8 @@ gem 'jbuilder'
 gem 'sdoc', group: :doc
 gem 'spring', group: :development
 
+gem 'slim-rails'
+
 group :production do
   gem 'rails_12factor'
 end
